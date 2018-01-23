@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC_001 {
 
-
+    //Firefox driver
     private WebDriver webDriver;
 
     @BeforeMethod
