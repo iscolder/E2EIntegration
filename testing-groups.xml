@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing with Groups Suite">
+    <groups>
+        <define name="all">
+
+        </define>
+        <run>
+            <include name="google"></include>
+        </run>
+    </groups>
+    <test name="Testing groups" >
+        <classes>
+            <class name="testcases.TC_001"></class>
+            <class name="testcases.TC_002"></class>
+        </classes>
+    </test>
+</suite>

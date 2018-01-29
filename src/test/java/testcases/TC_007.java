@@ -5,12 +5,14 @@ import com.jayway.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import util.PostGenerator;
 
 import static com.jayway.restassured.RestAssured.get;
 import static com.jayway.restassured.RestAssured.given;
 
+@Ignore
 public class TC_007 {
 
     @BeforeMethod

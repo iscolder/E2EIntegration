@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- run for different browsers -->
+<suite name="Test Parallel" parallel="tests" thread-count="2">
+    <test name="Test 1">
+        <classes>
+            <class name="testcases.TC_002" />
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="testcases.TC_003" />
+        </classes>
+    </test>
+</suite>
